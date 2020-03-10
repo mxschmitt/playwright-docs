@@ -1,0 +1,14 @@
+{
+  "name": "playwright-typedoc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mxschmitt/playwright-docs.git",
+  "author": "Max Schmitt <max@schmitt.mx>",
+  "license": "MIT",
+  "dependencies": {
+    "typedoc": "^0.16.11"
+  },
+  "scripts": {
+    "build": "cd playwright && node ../node_modules/.bin/typedoc --out ../docs --tsconfig tsconfig.json src"
+  }
+}
