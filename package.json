@@ -9,6 +9,6 @@
     "typedoc": "^0.16.11"
   },
   "scripts": {
-    "build": "cd playwright && node ../node_modules/.bin/typedoc --out ../docs --tsconfig tsconfig.json src"
+    "build": "cd playwright && node ../node_modules/.bin/typedoc --out ../docs --tsconfig tsconfig.json --includeVersion src"
   }
 }
